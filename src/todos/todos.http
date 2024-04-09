@@ -1,0 +1,14 @@
+### list todos
+GET http://localhost:3000/todos
+
+### get todo
+GET http://localhost:3000/todos/1
+
+### create todo
+POST http://localhost:3000/todos
+
+### update todo
+PATCH http://localhost:3000/todos/1
+
+### delete todo
+DELETE http://localhost:3000/todos/1
