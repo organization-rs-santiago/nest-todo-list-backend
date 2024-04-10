@@ -1,4 +1,4 @@
-import { IsDate, IsNumber, IsString } from "class-validator";
+import { IsDate, IsDateString, IsNumber, IsString } from "class-validator";
 
 export class CreateTodoDto {
     @IsString()
@@ -13,6 +13,6 @@ export class CreateTodoDto {
     @IsNumber()
     categoryId: number;
 
-    @IsDate()
-    createAt: Date
+    @IsDateString()
+    createdAt: Date;
 }
